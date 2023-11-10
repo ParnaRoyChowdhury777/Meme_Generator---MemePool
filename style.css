@@ -6,7 +6,6 @@
     outline: none;
     box-sizing: border-box;
     font-family: Agbalumo;
-    overflow: hidden;
     color: rgb(169 53 92);
 }
 
@@ -70,4 +69,24 @@ footer{
 
 footer a{
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .meme-generator {
+        margin: 1rem;
+    }
+
+    .generate-meme-btn {
+        width: 160px;
+        font-size: 16px;
+    }
+
+    .meme-title {
+        margin: 1rem;
+        font-size: 18px;
+    }
+
+    .meme-author {
+        font-size: 14px;
+    }
 }
